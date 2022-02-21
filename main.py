@@ -20,11 +20,10 @@ class UserBase(BaseModel):
 class UserLogin(UserBase):
     password: str = Field(
         ...,
-        min_length=8
+        min_length=8,
+        max_length=64
     )
-class User(BaseModel):
-    user_id: UUID = Field(...)  #Se crea user_id para que no se repita el usuario con la libreria UUID de python
-    email: EmailStr = Field(...) #con la funcion Field(...) se realiza autenticacion para que sea obligatorio
+class User(UserBase):
     first_name: str = Field(
         ...,
         min_length=1,
