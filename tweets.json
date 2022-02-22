@@ -1,1 +1,41 @@
-[]
+[
+    {
+        "tweet_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "content": "primer tweet de la aplicacion",
+        "created_at": "2022-02-22 09:30:05.564561",
+        "updated_at": "2022-02-22 14:36:27.426000+00:00",
+        "by": {
+            "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "email": "camilo@example.com",
+            "first_name": "Juan Camilo",
+            "last_name": "Puentes Sandoval",
+            "birth_date": "2022-02-22"
+        }
+    },
+    {
+        "tweet_id": "3fa85f64-5717-4562-b3fc-2c963f66afa7",
+        "content": "hola este es mi segundo twwet",
+        "created_at": "2022-02-22 09:30:05.564561",
+        "updated_at": "2022-02-22 14:36:27.426000+00:00",
+        "by": {
+            "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "email": "miguel@example.com",
+            "first_name": "miguel",
+            "last_name": "h",
+            "birth_date": "2022-02-22"
+        }
+    },
+    {
+        "tweet_id": "3fa85f64-5717-4562-b3fc-2c963f66afa9",
+        "content": "me voy de tweet por no me gusto la interface",
+        "created_at": "2022-02-22 09:30:05.564561",
+        "updated_at": "2022-02-22 14:36:27.426000+00:00",
+        "by": {
+            "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "email": "andrea@example.com",
+            "first_name": "andrea",
+            "last_name": "Cervera",
+            "birth_date": "2022-02-22"
+        }
+    }
+]

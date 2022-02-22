@@ -110,22 +110,7 @@ def signup(user:UserRegister = Body(...) ):
     tags=["Users"]
 )
 def login():
-    """
-    Login
-    
-    This path operation login a user in the app
-    
-    Parameters:
-        -Request body parameter
-            - user: UserLogin
-    
-    Returns a json with the basic user information:
-        - user_id: UUID
-        - email: Emailstr
-        - first_name: str
-        - last_name: str
-        - birth_date: date
-    """
+    pass
 
 ### Show all User
 @app.get(
